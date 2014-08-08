@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "GIF to Video",
+    "version": "1.0.0",
+	"description": "Plays GIFs as videos when opened in new tab.",
+	"icons": {
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},	
+	"page_action": {
+		"default_title": "Google Mail",
+		"default_icon": {
+		"19": "images/icon19.png",
+		"38": "images/icon38.png"
+		}
+    },	
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"tabs",
+		"http://i.imgur.com/FZTRccM.jpg"
+	]
+}
